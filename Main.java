@@ -150,8 +150,9 @@ class Main {
 				double gr3 = scn.nextDouble();
 
 				System.out.println("Please enter your Oral Communications Grade:");
-
-      System.out.println("Please enter your Student Organizations & Clubs Grade:");
+                                double gr4 = scn.nextDouble();
+				
+                                System.out.println("Please enter your Student Organizations & Clubs Grade:");
 				double gr5 = scn.nextDouble();
 
 				System.out.println("Please enter your Intro to the Philosophy of Human Grade:");
@@ -166,7 +167,7 @@ class Main {
 				System.out.println("Please enter your Media and Information Literacy Grade:");
 				double gr9 = scn.nextDouble();
 
-				double average = gr1 + gr2 + gr3 + gr5 + gr6 + gr7 + gr8 + gr9;
+				double average = gr1 + gr2 + gr3 + gr4 + gr5 + gr6 + gr7 + gr8 + gr9;
 
 
 
